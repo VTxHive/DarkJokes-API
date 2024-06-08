@@ -21,30 +21,34 @@ Welcome to the Joke API! This API provides a collection of jokes in JSON format.
 
 ## API Endpoints
 
+### Parameter Usage
+
+Here is the breif info about all the parameters in API
+
+| Parameter | Info |
+| --------------- | --------------- |
+| type | Used with /random Option 1 dark and Option 2 dad-joke, default remains anything |
+| limit | Used with /random Max 20 per request, default remains 1 |
+| id | Used with /joke-by-id is a interger which cannot be 0 and negative, Required parameter! |
+| query | Used with /search endpoint try searching words in jokes here, Required parameter! |
+
 ### /
 
-This is the home page of the API. It returns a simple message welcoming the user to the Joke API and providing a link to the Github page for more information.
-
+This is the Home page of the API. It returns a simple message welcoming the user to the Joke API and providing a link to the Github page for more information.
 
 **Example Response:**
 
 ```json
 {
-  "message": "Welcome to the Joke API. Visit our Github page for more information: https://github.com/your-username/joke-api"
+  "message": "Welcome to the Dark Jokes API, This is the Root Page. Visit our Github page for documentation: https://github.com/Harneet0162/Dark-Jokes-API"
 }
 ```
 
+
 ### /random
 
-This endpoint returns a random selection of jokes based on the 'type' parameter. The 'limit' parameter specifies the maximum number of jokes to return. If the 'limit' parameter is greater than 20, an error message is returned.
-
-### In type parameter we have dark and dad jokes as options you can try out both. 
-
-| Index | Parameter |
-| --------------- | --------------- |
-| type | dark |
-| type | dad-joke |
-| limit | max 20 per request |
+This endpoint returns a random selection of jokes based on the 'type' parameter. The 'limit' parameter specifies the maximum number of jokes to return. 
+If the 'limit' parameter is greater than 20, an error message is returned.
 
 **Example Request:**
 
@@ -84,7 +88,8 @@ print(data)
 
 ### /joke-by-id
 
-This endpoint returns a joke by its ID. If the ID is less than or equal to 0, an error message is returned. If the joke with the specified ID does not exist, an error message is returned.
+This endpoint returns a joke by its ID. If the ID is less than or equal to 0, an error message is returned. 
+If the joke with the specified ID does not exist, an error message is returned.
 
 **Example Request:**
 
