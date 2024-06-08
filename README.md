@@ -38,6 +38,8 @@ This is the home page of the API. It returns a simple message welcoming the user
 
 This endpoint returns a random selection of jokes based on the 'type' parameter. The 'limit' parameter specifies the maximum number of jokes to return. If the 'limit' parameter is greater than 20, an error message is returned.
 
+## IN type parameter we have dark and dad jokes you can try out both 
+
 **Example Request:**
 
 ```python
