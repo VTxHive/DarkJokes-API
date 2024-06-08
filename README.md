@@ -5,6 +5,8 @@
 
 ## Joke API Documentation
 You can access this api at https://darkjokesapi.vercel.app/
+Thank You for chosing this API IF you like this API pls STAR It on github
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -20,8 +22,6 @@ You can access this api at https://darkjokesapi.vercel.app/
 
 Welcome to the Joke API! This API provides a collection of jokes in JSON format. You can access the jokes through various endpoints, which are described below.
 
-## API Endpoints
-
 ### Parameter Usage
 
 Here is the breif info about all the parameters in API
@@ -32,6 +32,8 @@ Here is the breif info about all the parameters in API
 | limit | Used with /random, Max 20 per request, default remains 1 |
 | id | Used with /joke-by-id endpoint, is a interger which cannot be 0 and negative, Required parameter! |
 | query | Used with /search endpoint, try searching words in jokes here, Required parameter! |
+
+## API Endpoints
 
 ### /
 
