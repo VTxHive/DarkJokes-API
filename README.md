@@ -36,8 +36,13 @@ This endpoint returns a random selection of jokes based on the 'type' parameter.
 
 **Example Request:**
 
-```http
-https://darkjokesapi.vercel.app/random?limit=3&type=dad-joke
+```python
+import requests
+import json
+
+response = requests.get("https://darkjokesapi.vercel.app/random?limit=3&type=dad-joke")
+data = response.json()
+print(data)
 ```
 
 **Example Response:**
@@ -47,7 +52,7 @@ https://darkjokesapi.vercel.app/random?limit=3&type=dad-joke
   {
     "from": "github",
     "id": 426,
-    "joke": "Iâ€™ve decided to put up a marquee in my garden with some funky music and flashing lights. Now is the winter of my disco tent.",
+    "joke": "I've decided to put up a marquee in my garden with some funky music and flashing lights. Now is the winter of my disco tent.",
     "type": "dad-joke"
   },
   {
@@ -71,8 +76,13 @@ This endpoint returns a joke by its ID. If the ID is less than or equal to 0, an
 
 **Example Request:**
 
-```http
- https://darkjokesapi.vercel.app/joke-by-id?id=5
+```python
+import requests
+import json
+
+response = requests.get("https://darkjokesapi.vercel.app/joke-by-id?id=5")
+data = response.json()
+print(data)
 ```
 
 **Example Response:**
@@ -92,8 +102,13 @@ This endpoint searches for jokes containing the specified query. If no jokes are
 
 **Example Request:**
 
-```http
-https://darkjokesapi.vercel.app/search?query=black
+```python
+import requests
+import json
+
+response = requests.get("https://darkjokesapi.vercel.app/search?query=black")
+data = response.json()
+print(data)
 ```
 
 **Example Response:**
