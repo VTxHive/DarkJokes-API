@@ -22,7 +22,7 @@ Thank You for choosing this API IF you like this Project pls STAR It on github
 
 Welcome to the Joke API! This API provides a collection of jokes in JSON format. You can access the jokes through various endpoints, which are described below.
 
-### Parameter Usage
+## Parameter Usage
 
 Here is the breif info about all the parameters in API
 
@@ -51,7 +51,7 @@ This is the Home page of the API. It returns a simple message welcoming the user
 ### /random
 
 This endpoint returns a random selection of jokes based on the 'type' parameter. The 'limit' parameter specifies the maximum number of jokes to return. 
-If the 'limit' parameter is greater than 20, an error message is returned.
+If the 'limit' parameter is greater than 20, an error message is returned. 
 
 **Example Request:**
 
