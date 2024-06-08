@@ -2,7 +2,8 @@
   <img src="https://github.com/Harneet0162/DarkJokes-API/blob/main/Dark%20Jokes%20API.png" alt="Logo"/>
 </div>
 <br>
-# Joke API Documentation
+
+## Joke API Documentation
 You can access this api at https://darkjokesapi.vercel.app/
 ## Table of Contents
 
