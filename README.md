@@ -5,7 +5,7 @@
 
 ## Joke API Documentation
 You can access this api at https://darkjokesapi.vercel.app/
-Thank You for chosing this API IF you like this API pls STAR It on github
+Thank You for choosing this API IF you like this Project pls STAR It on github
 
 ## Table of Contents
 
