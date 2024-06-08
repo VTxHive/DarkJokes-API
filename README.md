@@ -1,4 +1,4 @@
-![Logo]([https://github.com/Harneet0162/DarkJokes-API/blob/main/Dark%20Jokes%20API.png))
+![Logo](https://github.com/Harneet0162/DarkJokes-API/blob/main/Dark%20Jokes%20API.png)
 
 
 # Joke API Documentation
