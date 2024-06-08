@@ -28,8 +28,8 @@ Here is the breif info about all the parameters in API
 
 | Parameter | Info |
 | --------------- | --------------- |
-| type | Used with /random, Option 1 dark and Option 2 dad-joke, default remains anything |
-| limit | Used with /random, Max 20 per request, default remains 1 |
+| type | Used with /random, Option 1 dark and Option 2 dad-joke, default remains anything. |
+| limit | Used with /random, Max 20 per request, default remains 1. |
 | id | Used with /joke-by-id endpoint, is a interger which cannot be 0 and negative, Required parameter! |
 | query | Used with /search endpoint, try searching words in jokes here, Required parameter! |
 
