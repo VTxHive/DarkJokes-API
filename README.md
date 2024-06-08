@@ -1,5 +1,5 @@
 # Joke API Documentation
-You can access this api at https://dark-joke-api.vercel.app/
+You can access this api at https://darkjokesapi.vercel.app/
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -21,6 +21,7 @@ Welcome to the Joke API! This API provides a collection of jokes in JSON format.
 
 This is the home page of the API. It returns a simple message welcoming the user to the Joke API and providing a link to the Github page for more information.
 
+
 **Example Response:**
 
 ```json
@@ -36,7 +37,7 @@ This endpoint returns a random selection of jokes based on the 'type' parameter.
 **Example Request:**
 
 ```http
-GET /random?limit=3&type=dad-joke
+https://darkjokesapi.vercel.app/random?limit=3&type=dad-joke
 ```
 
 **Example Response:**
@@ -71,7 +72,7 @@ This endpoint returns a joke by its ID. If the ID is less than or equal to 0, an
 **Example Request:**
 
 ```http
-GET /joke-by-id?id=5
+ https://darkjokesapi.vercel.app/joke-by-id?id=5
 ```
 
 **Example Response:**
@@ -92,7 +93,7 @@ This endpoint searches for jokes containing the specified query. If no jokes are
 **Example Request:**
 
 ```http
-GET /search?query=black
+https://darkjokesapi.vercel.app/search?query=black
 ```
 
 **Example Response:**
